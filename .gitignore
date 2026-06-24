@@ -1,0 +1,29 @@
+﻿# Build artifacts
+build/
+dist/
+__pycache__/
+*.exe
+*.log
+
+# Config and runtime
+cursorkeep_config.json
+cursorkeep.log
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+Thumbs.db
+.DS_Store
