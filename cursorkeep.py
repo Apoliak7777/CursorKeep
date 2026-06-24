@@ -900,7 +900,7 @@ def open_settings_dialog():
     # GitHub ad
     gh = ttk.Label(frame, text="⭐ Podpor ma: github.com/Apoliak7777", font=("Segoe UI", 8), foreground="#64748b", cursor="hand2")
     gh.pack(pady=(6, 0))
-    gh.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/Apoliak7777"))
+    gh.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/Apoliak7777/CursorKeep"))
 
     # Pozn: žiadne dlg.mainloop() – dialog beží v rámci hlavného mainloop (grab_set)
 
@@ -949,7 +949,7 @@ def create_gui():
     git_label = ttk.Label(git_frame, text="⭐ Podpor ma: github.com/Apoliak7777", 
                           font=("Segoe UI", 8), foreground="#1e40af", cursor="hand2", background="#f0f4ff")
     git_label.pack(padx=5, pady=2)
-    git_label.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/Apoliak7777"))
+    git_label.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/Apoliak7777/CursorKeep"))
 
     # Status - veľmi krátky
     status_label = ttk.Label(
